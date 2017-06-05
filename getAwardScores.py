@@ -1,7 +1,7 @@
 import re
 
 
-# normal; wins
+# normal wins
 def get_wins(text):
     pattern = re.compile(r'\d+\s+[win]')
     match = pattern.search(text)
